@@ -1,0 +1,210 @@
+﻿<html>
+<head>
+    <title>Bootstrap - Badge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="abc/v4-1-1bootstrap.min.css" />
+    <script src="abc/jquery-3.3.1.slim.min.js"></script>
+    <script src="abc/popper.min.js"></script>
+    <script src="abc/bootstrap.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#scrollspy-nav" data-offset="110">
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark bg-primary fixed-top" id="scrollspy-nav">
+        <!-- Links -->
+        <a class="navbar-brand " href="the-DIR.html">
+            <img src="image/logo.png" style="width: 40px" />Bu
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: #f00">
+            <span class="nav-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#content-javascript">JavaScript</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#content-CSS">CSS</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="the-DIR.html">BootStrap</a>
+                </li>
+          
+            <!--Dropdowlist  -->
+ 
+         <li class="nav-item dropdown" >
+        <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+               Dropdowlist</a>
+               <div class="dropdown-menu">
+                    
+                  <a class="dropdown-item " href="Bootstrap Badge.html">Bootstrap Badge</a>
+                    <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="sample.html">Sample</a>
+                   <div class="dropdown-divider"></div>
+                  <a class="dropdown-item " href="card group.html">Card Group</a>
+               </div>
+         </li>
+           
+      </ul>
+            <!-- form tim kiem  -->
+  <div> 
+          <ul class="navbar-nav ml-auto">
+          <form class="form-inline" action="/somepage">
+         <input class="form-control mr-sm-2" type="text" placeholder="TimKiem">
+         <button class="btn btn-success" type="submit">Tim Kiem</button>&nbsp; &nbsp; &nbsp;
+        </form>
+ </div>
+
+        </div>
+     <!--mr-auto, ml-auto (?) menu trai & menu ben phai-->
+<!--     <div>
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+           </li>
+         </ul>
+     </div>-->
+    <!--  --> 
+         <!--Modal là một Dialog (hộp thoại) hoặc là một Popup (cửa sổ bật lên) -->
+    <button class="btn btn-primary ml-auto"  type="button" data-toggle="modal" data-target="#myModal22" 
+        data-backdrop="static">Login </button>
+    <div class="modal fade" id="myModal22">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal-Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&time;</button>
+                </div>
+                 <!-- Modal body -->
+                <div class="modal-body">
+                    Modal-Body <br />
+                    <label for="myEmail">Email</label>
+                    <input type="email" id="myEmail" class="form-control" placeholder="Email----"/>
+                    <label for="myPassword">Password</label>
+                    <input type="password" id="myPassword" class="form-control" placeholder="Password----" />
+                    <br />
+                    <button type="submit" class="btn btn-primary" >Dong Y</button>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal"> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -->
+
+
+  </nav>
+------------------------<br />
+    <div style="margin-top:100px">
+        <button class="btn btn-primary">Download <span class="badge badge-primary">1000</span></button>
+        <button class="btn">Download <span class="badge badge-pill badge-primary">1000</span></button>
+  </div>
+    <br />
+    ---- Huong dan jumbotron---<br />
+    <div class="jumbotron">
+        <h1>Sample----</h1>
+            <p>
+                  Bootstrap is a free.
+            </p>
+        <p>
+            <a class="btn btn-lg btn-primary" href="#">Get started</a>
+        </p>
+    </div>
+    <br />
+
+    --- Dropdowlist---
+    <br />
+
+    <div class="btn-group">
+        <button class="btn btn-danger dropdown-toggle-split" type="button"  id="dropdownMenuButton" 
+            data-toggle="dropdown">Tutorial</button>
+        <div class="dropdown-menu">
+            <h1 class="dropdown-header text-danger">header dropdown</h1>
+            <a class="dropdown-item" href="#">1</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">3</a>
+        </div>
+    </div>
+
+
+   <br /> --- content web-- <br />
+        <button class="btn btn-primary"  type="button" data-toggle="modal" data-target="#myModal11" 
+        data-backdrop="static">Popup ++++ </button>
+    <div class="modal fade" id="myModal11">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal-Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&time;</button>
+                </div>
+                 <!-- Modal body -->
+                <div class="modal-body">
+                    Modal-Body <br />
+                    <label for="myEmail">Email</label>
+                    <input type="email" id="Email1" class="form-control" placeholder="Email----"/>
+                    <label for="myPassword">Password</label>
+                    <input type="password" id="Password1" class="form-control" placeholder="Password----" />
+                    <br />
+                    <button type="submit" class="btn btn-primary" >Dong Y</button>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal"> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-warning myPopover" data-toggle="popover" data-placement="top" 
+        title="hien thi PopOver " data-content="Noi dung popOver" data-trigger="focus" >popover</button>
+   
+     <!--Scrollspy + BODY  -->
+    <div class="container-fluid">
+        <div  >
+           <p class="mb-3">
+               <h4 id="content-javascript text-center">
+                JavaScript is a cross-platform, object-oriented scripting language used to
+                 make webpages interactive
+               (e.x. having complex animations, clickable buttons, popup menus, etc.)...
+            </h4></p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <p><h4 id="content-CSS">
+                CSS is the language for describing the presentation of Web pages, including colors,
+               layout, and fonts. It allows one to adapt the presentation to different types of devices,
+               such as large screens, small screens, or printers...
+            </h4></p>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <p>
+                <h4 is="content-BootStrap">
+                    Bootstrap is the language for describing the presentation of Web pages, including colors,
+               layout, and fonts. It allows one to adapt the presentation to different types of devices,
+               such as large screens, small screens, or printers. CSS is independent of HTML
+               and can be used with any XML-based markup language...
+                </h4><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        $(function () { $(".myPopover").popover() });
+    </script>
+
+
+</body>
+</html>
